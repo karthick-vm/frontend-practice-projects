@@ -1,0 +1,112 @@
+.sec3 {
+    height: 657px;
+    width: 100%;
+    padding-top: 110px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.sec3-up {
+    height: 224px;
+    width: 570px;
+    padding: 0 12px;
+}
+.sec3-up h2 {
+    color: #18304B;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: -.04em;
+    font-family: "overpass", sans-serif;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+.sec3-up p {
+    color: #6D6D6D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "chivo", sans-serif;
+    margin-top: 0;
+}
+.sec3-btm {
+    height: 433px;
+    width: 1140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sec3-btm-cnt {
+    width: 261px;
+    height: 100%;
+    background-color: #fff;
+    margin: 0 12px;
+    padding: 30px 31px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    text-align: center;
+}
+.sec3-btm-cnt-up {
+    height: 102px;
+    width: 100%;
+    margin-bottom: 33px;
+}
+.sec3-btm-cnt-up div {
+    font-size: 20px;
+    font-weight: 600;
+    color: #18304B;
+    margin-bottom: 14px;
+    font-family: "chivo", sans-serif;
+}
+.sec3-btm-cnt-up h4 {
+    color: #0AAB78;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "chivo", sans-serif;
+    margin: 0;
+}
+.sec3-btm-cnt-up p {
+    color: #76787A;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "chivo", sans-serif;
+    margin-top: 0;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+.sec3-btm-cnt-btm {
+    height: 208px;
+    width: 100%;
+}
+.sec3-btm-cnt-btm p {
+    font-family: "chivo", sans-serif;
+    color: #76787A;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 28px;
+}
+.sec3-btm-cnt-btm a {
+    border: 1px solid #007AFF;
+    padding: 13px 44px;
+    color: #007AFF;
+    font-size: 16px;
+    font-family: "chivo", sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .3s;
+    cursor: pointer;
+}
+.sec3-btm-cnt:hover {
+    .sec3-btm-cnt-btm a {
+        color: #fff;
+        background-color: #007AFF;
+    }
+}

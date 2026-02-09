@@ -1,0 +1,89 @@
+.home {
+    height: 800px;
+    width: 100%;
+    background: url('../image/hero-man.png.webp') no-repeat right bottom #E1EEFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.home-cnt {
+    height: 331px;
+    width: 641px;
+    margin-top: 225px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 12px;
+}
+.home-cnt-txt {
+    padding-right: 29px;
+    height: 201px;
+    margin-bottom: 40px;
+    color: #18304B;
+    font-size: 56px;
+    font-weight: 700;
+    font-family: "Overpass", sans-serif;
+}
+.home-cnt-btn {
+    flex: 1;
+    background-color: rgb(255,255,255);
+    border-radius: 6px;
+    box-shadow: rgba(36, 43, 94, 0.08) 0px 6px 29px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-cnt-btn-input {
+    width: 41%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-cnt-btn-input input {
+    height: 90px;
+    font-family: "chivo", sans-serif;
+    font-size: 17px;
+    font-weight: 400; 
+    border: none;
+    outline: none;
+    padding: 0;
+}
+.home-cnt-btn-input div {
+    background-color: rgb(224, 228, 248);
+    width: 2px;
+    height: 22px;
+}
+
+.home-cnt-btn-select {
+    width: 31%;
+    cursor: pointer;
+}
+.home-cnt-btn-select input {
+    height: 90px;
+    font-family: "chivo", sans-serif;
+    font-size: 17px;
+    font-weight: 400; 
+    border: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.home-cnt-btn-search {
+    width: 28%;
+}
+.home-cnt-btn-search button {
+    height: 75px;
+    width: 95%;
+    background-color: #007AFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 8px;
+    cursor: pointer;
+}

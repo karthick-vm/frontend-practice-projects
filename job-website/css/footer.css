@@ -1,0 +1,125 @@
+footer {
+    height: 540px;
+    width: 100%;
+}
+.ftr {
+    height: 467px;
+    width: 100%;
+    padding-top: 97px;
+    padding-bottom: 37px;
+    box-sizing: border-box;
+}
+.ftr-main {
+    width: 1140px;
+    height: 333px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ftr-main-sec {
+    width: 25%;
+    height: 100%;
+    padding: 0 12px;
+    box-sizing: border-box;
+}
+.ftr-main-sec div {
+    height: 51px;
+    width: 100%;
+    margin-bottom: 35px;
+}
+.ftr-main-sec div img {
+    height: 51px;
+    width: 166px;
+}
+.ftr-main-sec p {
+    font-family: "chivo", sans-serif;
+    color: #76787A;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-top: 0;
+}
+.ftr-main-sec button {
+    background: none;
+    border: 1px solid #007AFF;
+    color: #007AFF;
+    padding: 17px 36px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-family: "chivo", sans-serif;
+    margin-top: 20px;
+    transition: all .4s;
+    cursor: pointer;
+}
+.ftr-main-sec button:hover {
+    color: #fff;
+    background-color: #007AFF;
+}
+.ftr-main-cnt {
+    width: 16.6666%;
+    height: 100%;
+    padding: 0 12px;
+    box-sizing: border-box;
+}
+.ftr-main-cnt h4 {
+    color: #18304B;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-family: "overpass", sans-serif;
+    margin-top: 0;
+}
+.ftr-main-cnt ul {
+    margin: 0;
+    padding: 0;
+}
+.ftr-main-cnt ul li {
+    margin-bottom: 18px;
+    list-style: none;
+    color: #4C5753;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "chivo", sans-serif;
+    cursor: pointer;
+}
+
+.ftr-btm {
+    height: 73px;
+    width: 100%;
+}
+.ftr-btm-main {
+    height: 73px;
+    width: 1116px;
+    border-top: 1px solid rgba(76,87,83,0.15);
+    margin: auto;
+    padding-top: 24px;
+    padding-bottom: 1px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ftr-btm-main p {
+    width: 593px;
+    color: #4C5753;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2;
+    font-family: "chivo", sans-serif;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.ftr-btm-main div {
+    width: 141px;
+}
+.ftr-btm-main div img {
+    height: 22px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 12px;
+    cursor: pointer;
+}

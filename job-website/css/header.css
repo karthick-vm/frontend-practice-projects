@@ -1,0 +1,76 @@
+.head {
+    height: 85px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 100;
+    transition: all 0.25s;
+}
+.head__scrolled{
+    background-color: #E1EEFF;
+}
+
+.head-left {
+    width: 20%;
+    height: 100%;
+}
+.head-left img {
+    float: right;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.head-middle {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    align-items: center;
+}
+.head-middle div {
+    font-family: "chivo", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(24,48,75);
+    padding: 10px 3px;
+    margin: 0 15px;
+    transition: border-bottom 0.15s;
+    font-family: "Overpass", sans-serif;
+    cursor: pointer;
+    position: relative;
+}
+.head-middle div::before{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #007AFF;
+    position: absolute;
+    bottom: 15%;
+    transition: width 0.25s;
+}
+.head-middle div:hover::before {
+    width: 70%;
+}
+
+.head-right {
+    width: 25%;
+    height: 100%;
+}
+.head-right button {
+    background-color: #fff;
+    color: #007AFF;
+    border-radius: 5px;
+    margin: 17px 0;
+    padding: 14px 28px;
+    border: 1px solid transparent;
+    font-family: "chivo", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.head-right button:hover {
+    background-color: #007AFF;
+    color: #fff;
+}
