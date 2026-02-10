@@ -10,16 +10,25 @@ The goal of this repository is to showcase hands-on practice with core frontend 
 # Projects Included
 
 ### 1. IT Solution Website
+
+![IT Solution Website](screenshots/it-solution-home.png)
+
 - Static multi-section website
 - Focus on layout design and styling
 - Technologies: HTML, CSS
 
 ### 2. Job Website
+
+![Job Website](screenshots/job-website-home.png)
+
 - Job listing style website UI
 - Multiple sections and reusable components
 - Technologies: HTML, CSS
 
 ### 3. Calculator
+
+![Calculator](screenshots/calculator.png)
+
 - Functional calculator interface
 - Basic arithmetic operations
 - Technologies: HTML, CSS, JavaScript
