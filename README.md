@@ -5,6 +5,9 @@ Each project focuses on layout design, styling, and basic interactivity.
 
 The goal of this repository is to showcase hands-on practice with core frontend concepts such as page structure, responsive layouts, and simple user interactions.
 
+## Live Demo
+https://karthick-vm.github.io/frontend-practice-projects/
+
 ---
 
 # Projects Included
